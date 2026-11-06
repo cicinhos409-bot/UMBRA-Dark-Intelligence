@@ -11,7 +11,7 @@ App Next.js para pesquisa de micropúblicos, descoberta de vídeos no YouTube e 
 - Salvos em localStorage
 
 ## Idiomas da interface
-A interface está disponível em português, inglês, espanhol, francês, alemão, japonês, russo e coreano. Use o seletor no topo do aplicativo; a escolha fica salva neste navegador. As mensagens e estilos de internacionalização estão em `i18n/messages.js` e `i18n/locale.css`.
+A interface e a apresentação dos micropúblicos estão disponíveis em português, inglês, espanhol, francês, alemão, japonês, russo e coreano. Use o seletor no topo do aplicativo; a escolha fica salva neste navegador. As mensagens ficam em `i18n/messages.js`, os textos dos micropúblicos em `i18n/audiences.js` e os estilos em `i18n/locale.css`.
 
 ## Rodar localmente
 ```bash

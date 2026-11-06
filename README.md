@@ -46,6 +46,7 @@ Crie um repositório (recomendado privado), envie estes arquivos e conecte à Ve
 ## Como ler os dados
 - Views e likes são números observados no momento da consulta, não prova de sucesso futuro.
 - API Search + Videos consome quota do YouTube; `search.list` custa quota relevante. Use filtros e pesquise com intenção.
+- A pesquisa permite filtrar Shorts (até 3 minutos) ou vídeos acima de 3 minutos; como a API não marca Shorts oficiais, a classificação é estimada pela duração.
 - “Micropúblicos” do JSON são hipóteses de audiência, não segmentos estatisticamente comprovados.
 - Os 50 títulos são protótipos baseados em templates; revisar idioma, factualidade, originalidade e contexto cultural. Para títulos nativos melhores, integrar modelo de IA com API server-side.
 - Não existe promessa de viralização/monetização. Testar CTR, retenção, satisfação, recorrência e elegibilidade YPP.

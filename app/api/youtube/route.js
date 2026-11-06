@@ -22,7 +22,7 @@ export async function GET(req){
  const after=new Date(Date.now()-days*86400000).toISOString();
  const order=["date","viewCount","relevance"].includes(searchParams.get("order"))?searchParams.get("order"):"viewCount";
  try{
-  const params=new URLSearchParams({part:"snippet",q,type:"video",maxResults:String(Math.min(25,Math.max(1,Number(searchParams.get("maxResults")||25)))),order,publishedAfter:after,regionCode:country,relevanceLanguage:"en",key});
+  const params=new URLSearchParams({part:"snippet",q,type:"video",maxResults:String(Math.min(50,Math.max(1,Number(searchParams.get("maxResults")||50)))),order,publishedAfter:after,regionCode:country,relevanceLanguage:"en",key});
   const sr=await fetch("https://www.googleapis.com/youtube/v3/search?"+params,{next:{revalidate:300}});
   const sd=await sr.json();if(!sr.ok)return NextResponse.json({error:sd.error?.message||"Erro na API YouTube",reason:sd.error?.errors?.[0]?.reason},{status:sr.status});
   const ids=(sd.items||[]).map(x=>x.id.videoId).filter(Boolean);

@@ -32,7 +32,7 @@ const replacements = {
  "México":{region:["Oaxaca","Yucatán","norte rural","Michoacán","Chiapas"],community:["familias mexicanas","adultos mayores","comunidades locales"],generation:["generación de los 60","adultos mayores","Generación X"],culture:["tradiciones mexicanas","cultura regional"],place:["pueblos mexicanos","barrios históricos"]},
  "Reino Unido":{region:["Yorkshire","Scottish Highlands","Wales rural","Cornwall","Midlands"],community:["older Britons","rural families","local communities"],generation:["Baby Boomers","older generation","Gen X"],culture:["British traditions","regional culture"],place:["old British towns","historic villages"]}
 };
-const getLang = c=>({"Estados Unidos":"English","Canadá":"English","Brasil":"Português","Japão":"日本語","Alemanha":"Deutsch","França":"Français","Rússia":"Русский","Coreia do Sul":"한국어","México":"Español","Reino Unido":"English"}[c]||"English";
+const getLang = c=>({"Estados Unidos":"English","Canadá":"English","Brasil":"Português","Japão":"日本語","Alemanha":"Deutsch","França":"Français","Rússia":"Русский","Coreia do Sul":"한국어","México":"Español","Reino Unido":"English"}[c]||"English");
 function buildTitles(a,format,count=50){
  const lang=getLang(a.country), topic=a.topic||a.tags?.[0]||"local stories";
  const audienceName=a.label;

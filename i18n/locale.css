@@ -1,0 +1,35 @@
+.locale-picker select {
+  width: auto;
+  min-width: 128px;
+  padding: 8px 10px;
+  background: #15171b;
+}
+
+.audience-idea-label {
+  display: grid;
+  flex: 1;
+  min-width: 260px;
+  gap: 6px;
+  color: #a9aeb7;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .locale-picker select {
+    min-width: 0;
+    max-width: 125px;
+  }
+}

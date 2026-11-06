@@ -10,6 +10,9 @@ App Next.js para pesquisa de micropúblicos, descoberta de vídeos no YouTube e 
 - Geração local de 50 títulos + resumos (templates; sem IA externa nesta versão)
 - Salvos em localStorage
 
+## Idiomas da interface
+A interface está disponível em português, inglês, espanhol, francês, alemão, japonês, russo e coreano. Use o seletor no topo do aplicativo; a escolha fica salva neste navegador. As mensagens e estilos de internacionalização estão em `i18n/messages.js` e `i18n/locale.css`.
+
 ## Rodar localmente
 ```bash
 npm install

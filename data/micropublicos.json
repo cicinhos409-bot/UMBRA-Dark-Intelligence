@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "mp-01-01",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "Appalachian local-history enthusiasts",
+    "perspective": "Conteúdo contextualizado para appalachian local-history enthusiasts, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Appalachia",
+    "tags": [
+      "Appalachia",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-02",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "Midwest farm & small-town audience",
+    "perspective": "Conteúdo contextualizado para midwest farm & small-town audience, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Midwest",
+    "tags": [
+      "Midwest",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-03",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "New England heritage viewers",
+    "perspective": "Conteúdo contextualizado para new england heritage viewers, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "New England",
+    "tags": [
+      "New England",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-04",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "Retired American home gardeners",
+    "perspective": "Conteúdo contextualizado para retired american home gardeners, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "retired Americans",
+    "tags": [
+      "retired Americans",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-05",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "Route 66 nostalgia audience",
+    "perspective": "Conteúdo contextualizado para route 66 nostalgia audience, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Route 66",
+    "tags": [
+      "Route 66",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-06",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "US immigrant-family storytellers",
+    "perspective": "Conteúdo contextualizado para us immigrant-family storytellers, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "immigrant families",
+    "tags": [
+      "immigrant families",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-07",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "American veterans & community history",
+    "perspective": "Conteúdo contextualizado para american veterans & community history, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "veterans",
+    "tags": [
+      "veterans",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-08",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "Great Lakes working-class nostalgia",
+    "perspective": "Conteúdo contextualizado para great lakes working-class nostalgia, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Great Lakes",
+    "tags": [
+      "Great Lakes",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-09",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "Southern food heritage audience",
+    "perspective": "Conteúdo contextualizado para southern food heritage audience, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Southern food",
+    "tags": [
+      "Southern food",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-01-10",
+    "country": "Estados Unidos",
+    "language": "English",
+    "flag": "🇺🇸",
+    "label": "Pacific Northwest rural-living viewers",
+    "perspective": "Conteúdo contextualizado para pacific northwest rural-living viewers, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Pacific Northwest",
+    "tags": [
+      "Pacific Northwest",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-01",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Atlantic Canada community-history viewers",
+    "perspective": "Conteúdo contextualizado para atlantic canada community-history viewers, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Atlantic Canada",
+    "tags": [
+      "Atlantic Canada",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-02",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Prairie farming heritage audience",
+    "perspective": "Conteúdo contextualizado para prairie farming heritage audience, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Prairies",
+    "tags": [
+      "Prairies",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-03",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Northern Ontario outdoors seniors",
+    "perspective": "Conteúdo contextualizado para northern ontario outdoors seniors, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Northern Ontario",
+    "tags": [
+      "Northern Ontario",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-04",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Quebec village nostalgia viewers",
+    "perspective": "Conteúdo contextualizado para quebec village nostalgia viewers, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Quebec rural",
+    "tags": [
+      "Quebec rural",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-05",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Canadian railway-history enthusiasts",
+    "perspective": "Conteúdo contextualizado para canadian railway-history enthusiasts, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "railway history",
+    "tags": [
+      "railway history",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-06",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Newfoundland & Labrador family stories",
+    "perspective": "Conteúdo contextualizado para newfoundland & labrador family stories, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Newfoundland",
+    "tags": [
+      "Newfoundland",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-07",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "BC small-town gardening audience",
+    "perspective": "Conteúdo contextualizado para bc small-town gardening audience, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "British Columbia",
+    "tags": [
+      "British Columbia",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-08",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Canadian immigrant-generation stories",
+    "perspective": "Conteúdo contextualizado para canadian immigrant-generation stories, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "immigrant families",
+    "tags": [
+      "immigrant families",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-09",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Canadian 55+ home & lifestyle",
+    "perspective": "Conteúdo contextualizado para canadian 55+ home & lifestyle, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Canadian seniors",
+    "tags": [
+      "Canadian seniors",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-02-10",
+    "country": "Canadá",
+    "language": "English",
+    "flag": "🇨🇦",
+    "label": "Indigenous cultural-history learners",
+    "perspective": "Conteúdo contextualizado para indigenous cultural-history learners, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Indigenous history",
+    "tags": [
+      "Indigenous history",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-01",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Memória afetiva do interior brasileiro",
+    "perspective": "Conteúdo contextualizado para memória afetiva do interior brasileiro, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "interior",
+    "tags": [
+      "interior",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-02",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Nostalgia de TV para brasileiros 55+",
+    "perspective": "Conteúdo contextualizado para nostalgia de tv para brasileiros 55+, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "TV antiga",
+    "tags": [
+      "TV antiga",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-03",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Histórias de bairros antigos",
+    "perspective": "Conteúdo contextualizado para histórias de bairros antigos, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "bairros históricos",
+    "tags": [
+      "bairros históricos",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-04",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Culinária de tradição regional",
+    "perspective": "Conteúdo contextualizado para culinária de tradição regional, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "culinária regional",
+    "tags": [
+      "culinária regional",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-05",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Vida rural e pequenas propriedades",
+    "perspective": "Conteúdo contextualizado para vida rural e pequenas propriedades, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "vida rural",
+    "tags": [
+      "vida rural",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-06",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Memórias de profissões que desapareceram",
+    "perspective": "Conteúdo contextualizado para memórias de profissões que desapareceram, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "profissões antigas",
+    "tags": [
+      "profissões antigas",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-07",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Histórias ferroviárias brasileiras",
+    "perspective": "Conteúdo contextualizado para histórias ferroviárias brasileiras, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "ferrovias",
+    "tags": [
+      "ferrovias",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-08",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Costumes regionais pouco conhecidos",
+    "perspective": "Conteúdo contextualizado para costumes regionais pouco conhecidos, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "costumes",
+    "tags": [
+      "costumes",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-09",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Casas e arquitetura de décadas passadas",
+    "perspective": "Conteúdo contextualizado para casas e arquitetura de décadas passadas, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "arquitetura",
+    "tags": [
+      "arquitetura",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-03-10",
+    "country": "Brasil",
+    "language": "Português",
+    "flag": "🇧🇷",
+    "label": "Histórias de imigração no Brasil",
+    "perspective": "Conteúdo contextualizado para histórias de imigração no brasil, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "imigração",
+    "tags": [
+      "imigração",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-01",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "昭和時代の暮らしを懐かしむ人",
+    "perspective": "Conteúdo contextualizado para 昭和時代の暮らしを懐かしむ人, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "昭和",
+    "tags": [
+      "昭和",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-02",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "地方の昔話・地域史ファン",
+    "perspective": "Conteúdo contextualizado para 地方の昔話・地域史ファン, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "地方史",
+    "tags": [
+      "地方史",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-03",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "昔の商店街と町並み好き",
+    "perspective": "Conteúdo contextualizado para 昔の商店街と町並み好き, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "商店街",
+    "tags": [
+      "商店街",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-04",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "シニア向け家庭菜園",
+    "perspective": "Conteúdo contextualizado para シニア向け家庭菜園, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "家庭菜園",
+    "tags": [
+      "家庭菜園",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-05",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "伝統料理と家庭の味",
+    "perspective": "Conteúdo contextualizado para 伝統料理と家庭の味, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "伝統料理",
+    "tags": [
+      "伝統料理",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-06",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "消えた職業と生活文化",
+    "perspective": "Conteúdo contextualizado para 消えた職業と生活文化, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "職業",
+    "tags": [
+      "職業",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-07",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "昭和のテレビ・娯楽文化",
+    "perspective": "Conteúdo contextualizado para 昭和のテレビ・娯楽文化, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "テレビ",
+    "tags": [
+      "テレビ",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-08",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "古い鉄道と駅の物語",
+    "perspective": "Conteúdo contextualizado para 古い鉄道と駅の物語, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "鉄道",
+    "tags": [
+      "鉄道",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-09",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "昔の家・建築に関心がある人",
+    "perspective": "Conteúdo contextualizado para 昔の家・建築に関心がある人, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "古民家",
+    "tags": [
+      "古民家",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-04-10",
+    "country": "Japão",
+    "language": "日本語",
+    "flag": "🇯🇵",
+    "label": "地域の祭りと伝統を守る人",
+    "perspective": "Conteúdo contextualizado para 地域の祭りと伝統を守る人, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "祭り",
+    "tags": [
+      "祭り",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-01",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Dorfgeschichte für ältere Deutsche",
+    "perspective": "Conteúdo contextualizado para dorfgeschichte für ältere deutsche, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Dorfgeschichte",
+    "tags": [
+      "Dorfgeschichte",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-02",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Ostalgie & Alltagsgeschichte",
+    "perspective": "Conteúdo contextualizado para ostalgie & alltagsgeschichte, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Ostalgie",
+    "tags": [
+      "Ostalgie",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-03",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Regionale Handwerkstraditionen",
+    "perspective": "Conteúdo contextualizado para regionale handwerkstraditionen, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Handwerk",
+    "tags": [
+      "Handwerk",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-04",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Deutsche Gartenkultur 55+",
+    "perspective": "Conteúdo contextualizado para deutsche gartenkultur 55+, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Garten",
+    "tags": [
+      "Garten",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-05",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Alte Bahnstrecken und Bahnhöfe",
+    "perspective": "Conteúdo contextualizado para alte bahnstrecken und bahnhöfe, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Bahn",
+    "tags": [
+      "Bahn",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-06",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Vergessene Berufe in Deutschland",
+    "perspective": "Conteúdo contextualizado para vergessene berufe in deutschland, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Berufe",
+    "tags": [
+      "Berufe",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-07",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Heimatküche regional",
+    "perspective": "Conteúdo contextualizado para heimatküche regional, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Heimatküche",
+    "tags": [
+      "Heimatküche",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-08",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Historische Kleinstädte",
+    "perspective": "Conteúdo contextualizado para historische kleinstädte, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Kleinstädte",
+    "tags": [
+      "Kleinstädte",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-09",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Leben auf dem Land früher",
+    "perspective": "Conteúdo contextualizado para leben auf dem land früher, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Land",
+    "tags": [
+      "Land",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-05-10",
+    "country": "Alemanha",
+    "language": "Deutsch",
+    "flag": "🇩🇪",
+    "label": "Familiengeschichten der Einwanderung",
+    "perspective": "Conteúdo contextualizado para familiengeschichten der einwanderung, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Migration",
+    "tags": [
+      "Migration",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-01",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Mémoire des villages français",
+    "perspective": "Conteúdo contextualizado para mémoire des villages français, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "villages",
+    "tags": [
+      "villages",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-02",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Nostalgie des années 60–80",
+    "perspective": "Conteúdo contextualizado para nostalgie des années 60–80, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "nostalgie",
+    "tags": [
+      "nostalgie",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-03",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Traditions artisanales régionales",
+    "perspective": "Conteúdo contextualizado para traditions artisanales régionales, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "artisanat",
+    "tags": [
+      "artisanat",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-04",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Jardinage des seniors",
+    "perspective": "Conteúdo contextualizado para jardinage des seniors, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "jardinage",
+    "tags": [
+      "jardinage",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-05",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Anciennes lignes ferroviaires",
+    "perspective": "Conteúdo contextualizado para anciennes lignes ferroviaires, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "trains",
+    "tags": [
+      "trains",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-06",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Métiers oubliés en France",
+    "perspective": "Conteúdo contextualizado para métiers oubliés en france, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "métiers",
+    "tags": [
+      "métiers",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-07",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Cuisine de terroir et mémoire",
+    "perspective": "Conteúdo contextualizado para cuisine de terroir et mémoire, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "terroir",
+    "tags": [
+      "terroir",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-08",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Petites villes historiques",
+    "perspective": "Conteúdo contextualizado para petites villes historiques, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "villes",
+    "tags": [
+      "villes",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-09",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Vie rurale d'autrefois",
+    "perspective": "Conteúdo contextualizado para vie rurale d'autrefois, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "rural",
+    "tags": [
+      "rural",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-06-10",
+    "country": "França",
+    "language": "Français",
+    "flag": "🇫🇷",
+    "label": "Histoires des familles immigrées",
+    "perspective": "Conteúdo contextualizado para histoires des familles immigrées, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "immigration",
+    "tags": [
+      "immigration",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-01",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Истории старых российских деревень",
+    "perspective": "Conteúdo contextualizado para истории старых российских деревень, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "деревни",
+    "tags": [
+      "деревни",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-02",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Советская повседневная ностальгия",
+    "perspective": "Conteúdo contextualizado para советская повседневная ностальгия, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "ностальгия",
+    "tags": [
+      "ностальгия",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-03",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Региональные ремесла и традиции",
+    "perspective": "Conteúdo contextualizado para региональные ремесла и традиции, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "ремесла",
+    "tags": [
+      "ремесла",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-04",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Дача и сад для старшего поколения",
+    "perspective": "Conteúdo contextualizado para дача и сад для старшего поколения, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "дача",
+    "tags": [
+      "дача",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-05",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Забытые железнодорожные станции",
+    "perspective": "Conteúdo contextualizado para забытые железнодорожные станции, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "железная дорога",
+    "tags": [
+      "железная дорога",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-06",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Исчезнувшие профессии",
+    "perspective": "Conteúdo contextualizado para исчезнувшие профессии, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "профессии",
+    "tags": [
+      "профессии",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-07",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Домашняя кухня регионов",
+    "perspective": "Conteúdo contextualizado para домашняя кухня регионов, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "кухня",
+    "tags": [
+      "кухня",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-08",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "История малых городов",
+    "perspective": "Conteúdo contextualizado para история малых городов, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "города",
+    "tags": [
+      "города",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-09",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Сельская жизнь прошлых десятилетий",
+    "perspective": "Conteúdo contextualizado para сельская жизнь прошлых десятилетий, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "село",
+    "tags": [
+      "село",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-07-10",
+    "country": "Rússia",
+    "language": "Русский",
+    "flag": "🇷🇺",
+    "label": "Семейные истории переселения",
+    "perspective": "Conteúdo contextualizado para семейные истории переселения, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "переселение",
+    "tags": [
+      "переселение",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-01",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "옛 시골 마을의 생활사",
+    "perspective": "Conteúdo contextualizado para 옛 시골 마을의 생활사, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "마을",
+    "tags": [
+      "마을",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-02",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "1960–80년대 추억과 일상",
+    "perspective": "Conteúdo contextualizado para 1960–80년대 추억과 일상, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "추억",
+    "tags": [
+      "추억",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-03",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "지역 전통 공예 이야기",
+    "perspective": "Conteúdo contextualizado para 지역 전통 공예 이야기, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "공예",
+    "tags": [
+      "공예",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-04",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "시니어 텃밭과 생활",
+    "perspective": "Conteúdo contextualizado para 시니어 텃밭과 생활, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "텃밭",
+    "tags": [
+      "텃밭",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-05",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "사라진 역과 철도 이야기",
+    "perspective": "Conteúdo contextualizado para 사라진 역과 철도 이야기, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "철도",
+    "tags": [
+      "철도",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-06",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "옛 직업과 생활문화",
+    "perspective": "Conteúdo contextualizado para 옛 직업과 생활문화, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "직업",
+    "tags": [
+      "직업",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-07",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "지역 음식과 가족의 기억",
+    "perspective": "Conteúdo contextualizado para 지역 음식과 가족의 기억, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "음식",
+    "tags": [
+      "음식",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-08",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "오래된 동네와 골목 역사",
+    "perspective": "Conteúdo contextualizado para 오래된 동네와 골목 역사, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "골목",
+    "tags": [
+      "골목",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-09",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "과거 농촌 생활 이야기",
+    "perspective": "Conteúdo contextualizado para 과거 농촌 생활 이야기, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "농촌",
+    "tags": [
+      "농촌",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-08-10",
+    "country": "Coreia do Sul",
+    "language": "한국어",
+    "flag": "🇰🇷",
+    "label": "이주 가족의 세대별 이야기",
+    "perspective": "Conteúdo contextualizado para 이주 가족의 세대별 이야기, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "이주",
+    "tags": [
+      "이주",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-01",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Memoria de pueblos mexicanos",
+    "perspective": "Conteúdo contextualizado para memoria de pueblos mexicanos, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "pueblos",
+    "tags": [
+      "pueblos",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-02",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Nostalgia mexicana de los años 60–80",
+    "perspective": "Conteúdo contextualizado para nostalgia mexicana de los años 60–80, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "nostalgia",
+    "tags": [
+      "nostalgia",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-03",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Oficios tradicionales regionales",
+    "perspective": "Conteúdo contextualizado para oficios tradicionales regionales, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "oficios",
+    "tags": [
+      "oficios",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-04",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Huertos familiares para mayores",
+    "perspective": "Conteúdo contextualizado para huertos familiares para mayores, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "huertos",
+    "tags": [
+      "huertos",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-05",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Estaciones y ferrocarriles olvidados",
+    "perspective": "Conteúdo contextualizado para estaciones y ferrocarriles olvidados, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "ferrocarril",
+    "tags": [
+      "ferrocarril",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-06",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Trabajos que desaparecieron en México",
+    "perspective": "Conteúdo contextualizado para trabajos que desaparecieron en méxico, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "trabajos",
+    "tags": [
+      "trabajos",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-07",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Cocina de abuelas por región",
+    "perspective": "Conteúdo contextualizado para cocina de abuelas por región, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "cocina",
+    "tags": [
+      "cocina",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-08",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Historia de barrios antiguos",
+    "perspective": "Conteúdo contextualizado para historia de barrios antiguos, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "barrios",
+    "tags": [
+      "barrios",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-09",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Vida rural mexicana de antes",
+    "perspective": "Conteúdo contextualizado para vida rural mexicana de antes, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "vida rural",
+    "tags": [
+      "vida rural",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-09-10",
+    "country": "México",
+    "language": "Español",
+    "flag": "🇲🇽",
+    "label": "Historias de migración familiar",
+    "perspective": "Conteúdo contextualizado para historias de migración familiar, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "migración",
+    "tags": [
+      "migración",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-01",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "Yorkshire village-history audience",
+    "perspective": "Conteúdo contextualizado para yorkshire village-history audience, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "Yorkshire",
+    "tags": [
+      "Yorkshire",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-02",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "British 1960s–80s nostalgia viewers",
+    "perspective": "Conteúdo contextualizado para british 1960s–80s nostalgia viewers, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "nostalgia",
+    "tags": [
+      "nostalgia",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-03",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "Traditional regional crafts audience",
+    "perspective": "Conteúdo contextualizado para traditional regional crafts audience, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "crafts",
+    "tags": [
+      "crafts",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-04",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "UK senior allotment gardeners",
+    "perspective": "Conteúdo contextualizado para uk senior allotment gardeners, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "allotments",
+    "tags": [
+      "allotments",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-05",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "Forgotten British railway stations",
+    "perspective": "Conteúdo contextualizado para forgotten british railway stations, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "railways",
+    "tags": [
+      "railways",
+      "nostalgia",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-06",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "Disappearing trades in Britain",
+    "perspective": "Conteúdo contextualizado para disappearing trades in britain, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "trades",
+    "tags": [
+      "trades",
+      "comunidade",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-07",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "Regional British comfort-food audience",
+    "perspective": "Conteúdo contextualizado para regional british comfort-food audience, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "food",
+    "tags": [
+      "food",
+      "história",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-08",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "Historic market-town enthusiasts",
+    "perspective": "Conteúdo contextualizado para historic market-town enthusiasts, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "market towns",
+    "tags": [
+      "market towns",
+      "nostalgia",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-09",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "British rural-life nostalgia",
+    "perspective": "Conteúdo contextualizado para british rural-life nostalgia, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "rural life",
+    "tags": [
+      "rural life",
+      "comunidade",
+      "55+"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  },
+  {
+    "id": "mp-10-10",
+    "country": "Reino Unido",
+    "language": "English",
+    "flag": "🇬🇧",
+    "label": "UK immigrant family-history viewers",
+    "perspective": "Conteúdo contextualizado para uk immigrant family-history viewers, conectando histórias, referências e experiências relevantes sem estereótipos.",
+    "topic": "immigrant history",
+    "tags": [
+      "immigrant history",
+      "história",
+      "cultura"
+    ],
+    "validation": "Hipótese de pesquisa — validar demanda, concorrência, fontes e sensibilidade cultural antes de produzir."
+  }
+]

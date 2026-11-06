@@ -6,7 +6,7 @@ App Next.js para pesquisa de micropúblicos, descoberta de vídeos no YouTube e 
 - Next.js 14 / React 18 / JavaScript
 - CSS customizado (amber + dark UI)
 - YouTube Data API v3 via route server-side
-- 100 micropúblicos seed (10 países)
+- 300 micropúblicos de pesquisa (30 por país, 10 países); os perfis são hipóteses editoriais, não segmentos validados.
 - Geração local de 50 títulos + resumos (templates; sem IA externa nesta versão)
 - Salvos em localStorage
 

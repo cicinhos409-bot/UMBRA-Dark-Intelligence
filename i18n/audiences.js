@@ -33,6 +33,33 @@ const themes = {
   ],
 };
 
+const titleDerivedThemes = {
+  "pt-BR": [
+    "Forró e cultura de vaquejada", "Sertanejo ao vivo e DVDs completos", "Brega romântico e música nordestina", "R&B, trap soul e playlists românticas", "Blues e jazz para foco e estudo", "Música para Pomodoro e concentração", "Ambientes japoneses para relaxar e dormir", "Playlists nostálgicas e trilhas de viagem", "Comida caseira brasileira simples e econômica", "Churrasco e culinária ao ar livre", "Desafios gastronômicos e comidas gigantes", "Hortas pequenas e criação doméstica de peixes", "Documentários de vida selvagem e biodiversidade", "História popular: epidemias e vida no passado", "Explicações sobre clima e eventos meteorológicos", "Aviação, segurança aérea e investigação de incidentes", "Fisiculturismo e cultura fitness", "Animações curtas criadas com inteligência artificial", "Ferramentas de IA para vídeo e edição", "Agentes de IA e ferramentas open source", "Criação de canais e monetização responsável", "Empreendedorismo digital, afiliados e automação",
+  ],
+  en: [
+    "Forró music and vaquejada culture", "Live sertanejo music and full concert recordings", "Brazilian brega and romantic regional music", "R&B, trap soul, and late-night romantic playlists", "Blues and jazz for focus and studying", "Pomodoro and deep-focus music", "Japanese ambient music for relaxation and sleep", "Nostalgic playlists and road-trip soundtracks", "Simple, affordable Brazilian home cooking", "Barbecue and outdoor cooking", "Food challenges and oversized dishes", "Small-space gardens and backyard fish farming", "Wildlife documentaries and tropical biodiversity", "Popular history: epidemics and life in the past", "Accessible explainers on weather and climate events", "Aviation safety and incident investigations", "Bodybuilding and fitness culture", "AI-assisted short animation", "AI tools for video production and editing", "AI agents and open-source tools", "YouTube creators and responsible monetization", "Digital entrepreneurship, affiliate marketing, and automation",
+  ],
+  es: [
+    "Forró y cultura de vaquejada", "Sertanejo en vivo y conciertos completos", "Brega brasileño y música romántica regional", "R&B, trap soul y listas románticas nocturnas", "Blues y jazz para estudiar y concentrarse", "Música Pomodoro y concentración profunda", "Ambientes japoneses para relajarse y dormir", "Listas nostálgicas y música para viajar", "Cocina brasileña casera, sencilla y económica", "Parrilla y cocina al aire libre", "Retos gastronómicos y platos gigantes", "Huertos pequeños y cría doméstica de peces", "Documentales de fauna y biodiversidad tropical", "Historia divulgativa: epidemias y vida en el pasado", "Explicaciones accesibles sobre clima y meteorología", "Seguridad aérea e investigación de incidentes", "Culturismo y cultura del fitness", "Animación breve con inteligencia artificial", "Herramientas de IA para video y edición", "Agentes de IA y herramientas de código abierto", "Creadores de YouTube y monetización responsable", "Emprendimiento digital, afiliación y automatización",
+  ],
+  fr: [
+    "Forró et culture de la vaquejada", "Sertanejo en concert et enregistrements complets", "Brega brésilien et chansons romantiques régionales", "R&B, trap soul et playlists romantiques nocturnes", "Blues et jazz pour étudier et se concentrer", "Musique Pomodoro et concentration profonde", "Ambiances japonaises pour se détendre et dormir", "Playlists nostalgiques et musique de voyage", "Cuisine familiale brésilienne simple et économique", "Barbecue et cuisine en plein air", "Défis culinaires et plats géants", "Petits potagers et élevage de poissons à domicile", "Documentaires animaliers et biodiversité tropicale", "Histoire grand public : épidémies et vie d'autrefois", "Explications accessibles sur le climat et la météo", "Sécurité aérienne et enquêtes sur les incidents", "Culturisme et culture du fitness", "Animation courte avec l'intelligence artificielle", "Outils d'IA pour la vidéo et le montage", "Agents IA et outils open source", "Créateurs YouTube et monétisation responsable", "Entrepreneuriat numérique, affiliation et automatisation",
+  ],
+  de: [
+    "Forró-Musik und Vaquejada-Kultur", "Sertanejo live und vollständige Konzertmitschnitte", "Brasilianischer Brega und regionale Liebeslieder", "R&B, Trap Soul und romantische Nacht-Playlists", "Blues und Jazz zum Lernen und Konzentrieren", "Pomodoro-Musik und Tiefenfokus", "Japanische Klangwelten zum Entspannen und Schlafen", "Nostalgische Playlists und Musik für Roadtrips", "Einfache und günstige brasilianische Hausmannskost", "Grillen und Kochen im Freien", "Essens-Challenges und riesige Gerichte", "Kleine Gärten und Fischzucht im Hinterhof", "Wildtier-Dokus und tropische Artenvielfalt", "Populäre Geschichte: Seuchen und früheres Alltagsleben", "Verständliche Erklärungen zu Klima und Wetterereignissen", "Flugsicherheit und Untersuchung von Vorfällen", "Bodybuilding und Fitnesskultur", "KI-gestützte Kurzanimationen", "KI-Werkzeuge für Videoproduktion und Schnitt", "KI-Agenten und Open-Source-Werkzeuge", "YouTube-Kreative und verantwortungsvolle Monetarisierung", "Digitales Unternehmertum, Affiliate-Marketing und Automatisierung",
+  ],
+  ja: [
+    "フォホー音楽とヴァケジャーダ文化", "セルタネージョのライブとコンサート映像", "ブラジルのブレガと地域の恋愛音楽", "R&B、トラップソウル、夜のロマンチックなプレイリスト", "勉強や集中のためのブルースとジャズ", "ポモドーロと深い集中のための音楽", "リラックスや睡眠のための日本の環境音", "懐かしい曲とドライブ向けプレイリスト", "手軽で経済的なブラジルの家庭料理", "バーベキューと屋外料理", "大盛り料理と大食いチャレンジ", "小さな菜園と家庭での魚の飼育", "野生動物の記録映像と熱帯の生物多様性", "感染症と昔の暮らしを学ぶ歴史ドキュメンタリー", "気候や気象現象をわかりやすく解説", "航空安全と事故調査", "ボディビルとフィットネス文化", "AIで作る短編アニメーション", "動画制作と編集のAIツール", "AIエージェントとオープンソースツール", "YouTube制作者と責任ある収益化", "デジタル起業、アフィリエイト、自動化",
+  ],
+  ru: [
+    "Форро и культура вакежады", "Сертанежу: живые выступления и полные концерты", "Бразильская брега и романтическая региональная музыка", "R&B, трэп-соул и романтические ночные плейлисты", "Блюз и джаз для учёбы и концентрации", "Музыка для Pomodoro и глубокой концентрации", "Японские звуковые пейзажи для отдыха и сна", "Ностальгические плейлисты и музыка для поездок", "Простая и недорогая домашняя бразильская кухня", "Барбекю и приготовление еды на открытом воздухе", "Гастрономические челленджи и гигантские блюда", "Небольшие огороды и разведение рыбы дома", "Документальные фильмы о дикой природе и тропическом биоразнообразии", "Популярная история: эпидемии и жизнь в прошлом", "Понятные объяснения климатических и погодных явлений", "Авиационная безопасность и расследование происшествий", "Бодибилдинг и фитнес-культура", "Короткая анимация с помощью ИИ", "ИИ-инструменты для создания и монтажа видео", "ИИ-агенты и инструменты с открытым исходным кодом", "Авторы YouTube и ответственная монетизация", "Цифровой бизнес, партнёрский маркетинг и автоматизация",
+  ],
+  ko: [
+    "포호 음악과 바케자다 문화", "세르타네주 라이브와 전체 공연 영상", "브라질 브레가와 지역 로맨틱 음악", "R&B, 트랩 소울, 심야 로맨틱 플레이리스트", "공부와 집중을 위한 블루스와 재즈", "포모도로와 깊은 집중을 위한 음악", "휴식과 수면을 위한 일본 분위기 음악", "추억의 플레이리스트와 여행 음악", "간단하고 저렴한 브라질 가정식", "바비큐와 야외 요리", "대용량 음식과 먹방 챌린지", "작은 텃밭과 가정용 물고기 기르기", "야생동물 다큐멘터리와 열대 생물 다양성", "전염병과 과거 생활을 다루는 대중 역사", "기후와 기상 현상을 쉽게 설명하는 콘텐츠", "항공 안전과 사고 조사", "보디빌딩과 피트니스 문화", "AI로 만드는 짧은 애니메이션", "영상 제작과 편집을 위한 AI 도구", "AI 에이전트와 오픈 소스 도구", "유튜브 창작자와 책임 있는 수익화", "디지털 창업, 제휴 마케팅, 자동화",
+  ],
+};
+
 const headings = {
   "pt-BR": "{theme} — {country}",
   en: "{theme} — {country}",
@@ -95,6 +122,10 @@ export function getAudienceTheme(id, locale = "pt-BR") {
   const prefix = parts.slice(0, 2).join("-");
   const sequence = Number(parts[parts.length - 1]);
   const localizedThemes = themes[locale] || themes["pt-BR"];
+  if (prefix === "mp-03" && sequence >= 31) {
+    const derivedThemes = titleDerivedThemes[locale] || titleDerivedThemes["pt-BR"];
+    return derivedThemes[sequence - 31] || localizedThemes[0];
+  }
   const baseThemeIndex = sequence <= 10 ? baseThemeIndices[prefix]?.[sequence - 1] : null;
   return localizedThemes[baseThemeIndex ?? sequence - 1] || localizedThemes[0];
 }

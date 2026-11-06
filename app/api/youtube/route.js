@@ -1,7 +1,20 @@
 import { NextResponse } from "next/server";
 const countryCodes={"Estados Unidos":"US","Canadá":"CA","Brasil":"BR","Japão":"JP","Alemanha":"DE","França":"FR","Rússia":"RU","Coreia do Sul":"KR","México":"MX","Reino Unido":"GB"};
 export async function GET(req){
- const {searchParams}=new URL(req.url);const key=process.env.YOUTUBE_API_KEY;
+ const requestUrl=new URL(req.url);const {searchParams}=requestUrl;
+ const proxyUrl=process.env.YOUTUBE_API_PROXY_URL?.trim();
+ if(proxyUrl){
+  try{
+   const target=new URL(proxyUrl);
+   if(!["http:","https:"].includes(target.protocol)||target.origin===requestUrl.origin)return NextResponse.json({error:"YOUTUBE_API_PROXY_URL precisa apontar para uma origem HTTP(S) diferente deste servidor."},{status:500});
+   target.search=requestUrl.search;
+   const response=await fetch(target,{cache:"no-store"});
+   return NextResponse.json(await response.json(),{status:response.status});
+  }catch{
+   return NextResponse.json({error:"Não foi possível consultar a API do YouTube configurada na Vercel."},{status:502});
+  }
+ }
+ const key=process.env.YOUTUBE_API_KEY;
  if(!key)return NextResponse.json({error:"YOUTUBE_API_KEY não configurada no servidor."},{status:503});
  const q=(searchParams.get("q")||"").trim();if(!q)return NextResponse.json({error:"Informe um termo de busca."},{status:400});
  const country=countryCodes[searchParams.get("country")]||searchParams.get("country")||"US";

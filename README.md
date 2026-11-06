@@ -19,6 +19,12 @@ npm run dev
 ```
 Acesse http://localhost:3000
 
+Para usar localmente a chave que está configurada na Vercel, deixe `YOUTUBE_API_KEY` vazio em `.env.local` e configure:
+```env
+YOUTUBE_API_PROXY_URL=https://umbra-dark-intelligence.vercel.app/api/youtube
+```
+O servidor local encaminha as buscas à rota da Vercel; a chave continua apenas no servidor remoto. Não configure `YOUTUBE_API_PROXY_URL` na Vercel, pois isso faria a rota chamar a si mesma. Reinicie `npm run dev` após alterar `.env.local`.
+
 ## API oficial YouTube
 1. Google Cloud Console: https://console.cloud.google.com/apis/library/youtube.googleapis.com
 2. Ative YouTube Data API v3 e crie API key.
@@ -26,7 +32,7 @@ Acesse http://localhost:3000
 4. Configure `YOUTUBE_API_KEY` em `.env.local` e em Vercel → Project Settings → Environment Variables.
 5. Redeploy.
 
-A chave é usada exclusivamente em `app/api/youtube/route.js`, no servidor. Não coloque chave em `NEXT_PUBLIC_*`.
+A chave é usada exclusivamente em `app/api/youtube/route.js`, no servidor. Não coloque chave em `NEXT_PUBLIC_*`. `YOUTUBE_API_PROXY_URL` é opcional e deve ser usado apenas no desenvolvimento local quando quiser encaminhar chamadas para uma implantação remota.
 
 ## Deploy Vercel
 - Importe o repositório GitHub em https://vercel.com/new

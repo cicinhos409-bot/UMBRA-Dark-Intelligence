@@ -1,38 +1,12 @@
  "use client";
 import { useEffect, useMemo, useState } from "react";
-import { Search, Radar, LayoutDashboard, Users, Layers3, Bookmark, Settings, ChevronLeft, ChevronRight, Youtube, Sparkles, Globe2, TrendingUp, ArrowUpRight, Copy, ExternalLink, Menu, Filter, PlayCircle, Clock3, Target, Zap, Plus, Check, X, BarChart3 } from "lucide-react";
-import baseAudiences from "@/data/micropublicos.json";
-import additionalAudienceTopics from "@/data/micropublicos-adicionais.json";
+import { Search, Radar, LayoutDashboard, Users, Layers3, Bookmark, Settings, ChevronLeft, ChevronRight, Youtube, Sparkles, Globe2, TrendingUp, ArrowUpRight, Copy, ExternalLink, Menu, Filter, PlayCircle, Clock3, Target, Zap, Plus, Check, X, BarChart3, KeyRound } from "lucide-react";
+import { getAudienceCatalog } from "@/lib/audiences";
 import { getAudiencePresentation, getAudienceTheme } from "@/i18n/audiences";
+import { apiMessages } from "@/i18n/api";
 import { UI_LANGUAGES, formatDescriptions, localeTags, messages, translate } from "@/i18n/messages";
 
-const audienceThemeTags=["história local","memória comunitária","patrimônio","arquitetura","natureza","conservação","culinária","agricultura local","música","artes cênicas","ciência","história industrial","engenharia","transporte e navegação","museus","bibliotecas e arquivos","fotografia","literatura","esportes","observação da natureza"];
-const audienceLabelFormats={
- English:topic=>`${topic} enthusiasts`,
- Português:topic=>`Público interessado em ${topic}`,
- 日本語:topic=>`${topic}に関心のある人々`,
- Deutsch:topic=>`Interessierte an ${topic}`,
- Français:topic=>`Passionnés de ${topic}`,
- Русский:topic=>`Любители темы «${topic}»`,
- 한국어:topic=>`${topic} 관심층`,
- Español:topic=>`Aficionados a ${topic}`
-};
-const addedAudiences=Object.entries(additionalAudienceTopics).flatMap(([country,topics])=>{
- const base=baseAudiences.find(a=>a.country===country);
- if(!base)throw new Error(`Nenhum micropúblico base encontrado para ${country}.`);
- const makeLabel=audienceLabelFormats[base.language];
- if(!makeLabel)throw new Error(`Idioma sem modelo de micropúblico: ${base.language}.`);
- const prefix=base.id.split("-").slice(0,2).join("-");
- return topics.map((topic,index)=>({
-  ...base,
-  id:`${prefix}-${String(index+11).padStart(2,"0")}`,
-  label:makeLabel(topic),
-  perspective:`Explore ${topic} com fontes verificáveis, contexto local e perspectivas da comunidade, sem tratar hipóteses como fatos.`,
-  topic,
-  tags:[topic,audienceThemeTags[index]],
- }));
-});
-const audiences=[...baseAudiences,...addedAudiences];
+const audiences=getAudienceCatalog();
 
 const countries = ["Todos","Estados Unidos","Canadá","Brasil","Japão","Alemanha","França","Rússia","Coreia do Sul","México","Reino Unido"];
 const languages = ["Todos","English","Português","日本語","Deutsch","Français","Русский","한국어","Español"];
@@ -43,6 +17,7 @@ const nav = [
   {id:"audiences",label:"Micropúblicos",icon:Users},
   {id:"formats",label:"Transferência de formatos",icon:Layers3},
   {id:"saved",label:"Oportunidades salvas",icon:Bookmark},
+  {id:"api",label:"API",icon:KeyRound},
 ];
 const formatTypes=["Documentário narrado","Storytelling","Avatar / apresentador","Animação explicativa","Lista / ranking","História real","Nostalgia","Comparativo","Tutorial contextual","Mini-documentário","Estudo de caso","Linha do tempo","Mito vs. fato","Mistério investigativo","Diário de campo","Entrevista contextual","Mapa narrado","Antes e depois","Perguntas da comunidade","Série em episódios"];
 const seedIdeas=[
@@ -137,13 +112,13 @@ export default function Home(){
  }
  function generate(){const a={...current,topic:topic||current.topic};setTitles(buildTitles(a,format,50));setTab("titles");}
  const go=(id)=>{setPage(id);setMobile(false)};
- const pageTitle=page==="settings"?t("settings.title"):t(`pages.${page}.title`);
- const pageDescription=page==="settings"?t("settings.description"):t(`pages.${page}.description`,{count:audiences.length});
+ const pageTitle=page==="settings"?t("settings.title"):page==="api"?apiMessages[uiLocale].title:t(`pages.${page}.title`);
+ const pageDescription=page==="settings"?t("settings.description"):page==="api"?apiMessages[uiLocale].description:t(`pages.${page}.description`,{count:audiences.length});
  return <div className="app-shell">
   <aside className={`sidebar ${collapsed?"collapsed":""} ${mobile?"mobile-open":""}`}>
    <div className="brand"><div className="brand-mark"><Radar size={22}/></div>{!collapsed&&<div><b>UMBRA</b><small>DARK INTELLIGENCE</small></div>}<button className="collapse" onClick={()=>setCollapsed(!collapsed)}>{collapsed?<ChevronRight/>:<ChevronLeft/>}</button></div>
    <div className="workspace-label">{!collapsed&&t("workspace")}</div>
-   <nav>{nav.map(n=><button key={n.id} className={`nav-item ${page===n.id?"active":""}`} onClick={()=>go(n.id)} title={t(`nav.${n.id}`)}><n.icon size={19}/>{!collapsed&&<span>{t(`nav.${n.id}`)}</span>}{!collapsed&&n.id==="saved"&&<em>{saved.length}</em>}</button>)}</nav>
+   <nav>{nav.map(n=><button key={n.id} className={`nav-item ${page===n.id?"active":""}`} onClick={()=>go(n.id)} title={n.id==="api"?"API":t(`nav.${n.id}`)}><n.icon size={19}/>{!collapsed&&<span>{n.id==="api"?"API":t(`nav.${n.id}`)}</span>}{!collapsed&&n.id==="saved"&&<em>{saved.length}</em>}</button>)}</nav>
    <div className="sidebar-bottom"><button className="nav-item" onClick={()=>go("settings")}><Settings size={19}/>{!collapsed&&t("settings.title")}</button><div className="profile">{!collapsed&&<><div className="avatar">U</div><div><b>Umbra Operator</b><small>{t("profileRole")}</small></div></>}</div></div>
   </aside>
   <div className="main-area">
@@ -183,10 +158,42 @@ export default function Home(){
     {page==="audiences"&&<><div className="toolbar"><label className="audience-idea-label"><span>{t("audiences.idea")}</span><div className="searchbox"><Search size={17}/><input aria-label={t("audiences.idea")} placeholder={t("audiences.placeholder")} value={audience} onChange={e=>setAudience(e.target.value)}/></div><small className="muted">{t("audiences.help")}</small></label><select aria-label={t("discover.country")} value={country} onChange={e=>{setCountry(e.target.value);setLanguage(e.target.value==="Todos"?"Todos":getLang(e.target.value))}}>{countries.map(x=><option key={x} value={x}>{m.countryNames[x]||x}</option>)}</select><select aria-label={t("discover.language")} value={language} onChange={e=>setLanguage(e.target.value)}>{languages.map((x,i)=><option key={x} value={x}>{m.audienceLanguages[i]||x}</option>)}</select><span className="pill">{t("audiences.count",{shown:filteredAudiences.length,total:audiences.length})}</span></div>{filteredAudiences.length===0?<div className="empty-state panel"><b>{t("audiences.noMatch")}</b><p>{t("audiences.noMatchHelp")}</p></div>:<div className="audience-grid">{filteredAudiences.map(a=><AudienceCard key={a.id} a={a} onClick={()=>{setActive(a);go("discover")}} onSave={()=>save(a)} saved={saved.some(x=>x.id===a.id)} messages={m} locale={locale}/>)}</div>}</>}
     {page==="formats"&&<><div className="format-grid">{formatTypes.map((f,i)=><div className="panel format-card" key={f}><div className="format-icon"><Layers3 size={20}/></div><span className="pill">{t("formats.card",{number:String(i+1).padStart(2,"0")})}</span><h3>{m.formatsList[i]||f}</h3><p>{formatDescriptions[uiLocale]?.[i]||formatDescriptions["pt-BR"][i]}</p><button className="text-btn" onClick={()=>{setFormat(f);go("discover")}}>{t("formats.apply")} <ArrowUpRight size={15}/></button></div>)}</div><section className="panel"><h2>{t("formats.principle")}</h2><p className="muted">{t("formats.principleText")}</p></section></>}
     {page==="saved"&&<><div className="toolbar"><span className="pill amber">{t("saved.count",{count:saved.length})}</span><p className="muted">{t("saved.help")}</p></div>{saved.length===0?<div className="empty-state panel"><Bookmark size={30}/><b>{t("saved.empty")}</b><p>{t("saved.emptyHelp")}</p><button className="btn primary" onClick={()=>go("discover")}>{t("saved.start")}</button></div>:<div className="audience-grid">{saved.map(a=><AudienceCard key={a.id} a={a} onClick={()=>{setActive(a);go("discover")}} onSave={()=>save(a)} saved={true} messages={m} locale={locale}/>)}</div>}</>}
+    {page==="api"&&<ApiAccessPage copy={apiMessages[uiLocale]||apiMessages["pt-BR"]} locale={uiLocale}/>}
     {page==="settings"&&<section className="panel"><h2>{t("settings.title")}</h2><p className="muted">{t("settings.description")}</p><div className="setup-steps">{m.settings.steps.map((step,i)=><p key={step}><b>{i+1}.</b> {step}</p>)}</div><button className="btn secondary" onClick={()=>window.open("https://console.cloud.google.com/apis/library/youtube.googleapis.com","_blank","noopener,noreferrer")}>{t("settings.openCloud")} <ExternalLink size={15}/></button></section>}
    </main><footer className="footer">UMBRA DARK INTELLIGENCE <span>{t("footer")}</span><span>{t("prototype")}</span></footer>
   </div>
  </div>
+}
+function ApiAccessPage({copy,locale}){
+ const [apiBaseUrl,setApiBaseUrl]=useState("https://umbra-dark-intelligence.vercel.app");
+ const [apiConfigured,setApiConfigured]=useState(null);
+ const [statusError,setStatusError]=useState(false);
+ useEffect(()=>{
+  setApiBaseUrl(window.location.origin);
+  fetch("/api/v1/status")
+   .then(async response=>{
+    if(!response.ok)throw new Error(`Status request failed: ${response.status}`);
+    const data=await response.json();
+    setApiConfigured(data.configured);
+   })
+   .catch(()=>setStatusError(true));
+ },[]);
+ const curlExample=`$headers = @{ Authorization = "Bearer YOUR_UMBRA_API_KEY" }\nInvoke-RestMethod -Headers $headers -Uri "${apiBaseUrl}/api/v1/audiences?locale=${locale}&limit=5"`;
+ const claudeExample=`claude mcp add --transport stdio --scope user --env "UMBRA_API_URL=${apiBaseUrl}" --env "UMBRA_API_KEY=YOUR_UMBRA_API_KEY" umbra -- node "PROJECT_PATH\\mcp\\server.js"`;
+ const codexExample=`[mcp_servers.umbra]\ncommand = "node"\nargs = ["PROJECT_PATH\\\\mcp\\\\server.js"]\nenv = { "UMBRA_API_URL" = "${apiBaseUrl}", "UMBRA_API_KEY" = "YOUR_UMBRA_API_KEY" }`;
+ return <div className="api-page">
+  <section className="panel api-status">
+   <div><h2><KeyRound size={18}/>{copy.status}</h2><p>{statusError?copy.unavailable:apiConfigured===null?"…":apiConfigured?copy.configured:copy.notConfigured}</p></div>
+   <span className={`pill ${apiConfigured?"amber":""}`}>{apiConfigured?copy.ready:statusError?copy.offline:copy.pending}</span>
+  </section>
+  <div className="error-box api-key-notice">{copy.keyNotice}</div>
+  <section className="panel"><div className="panel-head"><div><h2>{copy.serverSetup}</h2></div></div><ol className="api-steps">{copy.serverSteps.map(step=><li key={step}>{step}</li>)}</ol><p className="muted"><code>UMBRA_API_URL={apiBaseUrl}</code></p></section>
+  <section className="panel"><div className="panel-head"><div><h2>{copy.resources}</h2></div></div><div className="api-resources">
+   {[[copy.audiences,copy.audiencesDesc,"GET /api/v1/audiences"],[copy.youtube,copy.youtubeDesc,"GET /api/v1/youtube"],[copy.titles,copy.titlesDesc,"POST /api/v1/titles"],[copy.saved,copy.savedDesc,"localStorage only"]].map(([title,description,path])=><article className="api-resource" key={path}><b>{title}</b><p>{description}</p><code>{path}</code></article>)}
+  </div></section>
+  <section className="panel"><div className="panel-head"><div><h2>{copy.rest}</h2><p>{copy.auth}</p></div></div><pre className="api-code">{curlExample}</pre><pre className="api-code">{`POST ${apiBaseUrl}/api/v1/titles\nAuthorization: Bearer YOUR_UMBRA_API_KEY\nContent-Type: application/json\n\n${JSON.stringify({audienceId:"mp-03-31",format:"Documentário narrado",topic:"forró",count:10,locale},null,2)}`}</pre></section>
+  <section className="panel"><div className="panel-head"><div><h2>{copy.mcp}</h2><p>{copy.mcpDesc}</p></div></div><h3>{copy.claude}</h3><pre className="api-code">{claudeExample}</pre><h3>{copy.codex}</h3><p className="muted">{copy.codexDesc}</p><pre className="api-code">{codexExample}</pre><p className="muted">{copy.configNotice}</p></section>
+ </div>;
 }
 function Stat({icon:Icon,label,value,sub,color}){return <div className="stat-card"><div className={`stat-icon ${color}`}><Icon size={19}/></div><small>{label}</small><strong>{value}</strong><span>{sub}</span></div>}
 function AudienceCard({a,onClick,onSave,saved,messages,locale}){const presentation=getAudiencePresentation(a,locale,messages.countryNames[a.country]||a.country);return <div className="audience-card"><div className="aud-top"><span className="country-tag">{a.flag} {presentation.country}</span><button className={`icon-btn ${saved?"saved":""}`} onClick={onSave} title={messages.common.save}><Bookmark size={16}/></button></div><h3>{presentation.label}</h3><p>{presentation.perspective}</p><div className="tags">{presentation.tags.map(t=><span key={t}>{t}</span>)}</div><div className="aud-foot"><span>{presentation.language}</span><button className="text-btn" onClick={onClick}>{messages.investigate} <ArrowUpRight size={14}/></button></div></div>}

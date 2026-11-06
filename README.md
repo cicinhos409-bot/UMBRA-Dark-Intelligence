@@ -37,6 +37,22 @@ O servidor local encaminha as buscas à rota da Vercel; a chave continua apenas 
 
 A chave é usada exclusivamente em `app/api/youtube/route.js`, no servidor. Não coloque chave em `NEXT_PUBLIC_*`. `YOUTUBE_API_PROXY_URL` é opcional e deve ser usado apenas no desenvolvimento local quando quiser encaminhar chamadas para uma implantação remota.
 
+## API da plataforma e MCP
+A página **API** do app mostra o status e as instruções de conexão. A API REST e o servidor MCP oferecem:
+- `GET /api/v1/audiences` — listar e filtrar os micropúblicos (`q`, `country`, `language`, `locale`, `limit`).
+- `GET /api/v1/youtube` — pesquisar vídeos; aceita os parâmetros usados pela pesquisa do app.
+- `POST /api/v1/titles` — gerar conceitos. Corpo JSON: `{"audienceId":"mp-03-31","format":"Documentário narrado","topic":"forró","count":10,"locale":"pt-BR"}`.
+
+Todas as rotas `/api/v1/*`, exceto `/api/v1/status`, exigem `Authorization: Bearer <UMBRA_API_KEY>`. Gere uma chave aleatória com:
+```bash
+node -e "console.log(require('crypto').randomBytes(32).toString('base64url'))"
+```
+Configure `UMBRA_API_KEY` no `.env.local` e nas variáveis do projeto Vercel. Para revogar a chave, substitua a variável e faça redeploy. Nunca use `NEXT_PUBLIC_UMBRA_API_KEY` nem envie a chave ao repositório.
+
+O MCP em `mcp/server.js` fornece as ferramentas `list_micro_audiences`, `search_youtube` e `generate_titles`. Instale/clone o repositório no computador do cliente e configure o MCP com `command: node`, `args: ["<caminho-do-projeto>/mcp/server.js"]`, `UMBRA_API_URL` apontando para a implantação e `UMBRA_API_KEY` na configuração privada do cliente. Claude Code e Codex aceitam servidores MCP; outras conversas precisam oferecer suporte a MCP ou fazer chamadas REST. Mantenha os arquivos de configuração com a chave fora do Git.
+
+O API status apenas informa se a chave está configurada; a chave não pode ser lida de volta pela interface. O catálogo e as buscas são compartilhados, mas oportunidades salvas continuam no `localStorage` de cada navegador e não ficam disponíveis aos agentes via API.
+
 ## Deploy Vercel
 - Importe o repositório GitHub em https://vercel.com/new
 - Framework preset: Next.js

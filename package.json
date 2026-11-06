@@ -2,7 +2,7 @@
   "name":"umbra-dark-intelligence",
   "version":"0.1.0",
   "private":true,
-  "scripts":{"dev":"next dev","build":"next build","start":"next start","lint":"next lint"},
+  "scripts":{"dev":"next dev","build":"next build","start":"next start","lint":"next lint","mcp":"node mcp/server.js"},
   "dependencies":{"next":"14.2.30","react":"^18","react-dom":"^18","lucide-react":"^0.468.0"},
   "devDependencies":{"eslint":"^8","eslint-config-next":"14.2.30"}
 }
